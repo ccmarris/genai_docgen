@@ -2,7 +2,7 @@ import pytest
 from docx import Document
 import os
 
-from src.docgen import save_responses_to_docx
+from genai_docgen.src.utils.docgen import save_responses_to_docx
 from src.prompts import PROMPTS
 
 def test_save_responses_to_docx(tmp_path):
